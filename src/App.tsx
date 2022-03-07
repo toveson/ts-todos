@@ -3,6 +3,8 @@ import "./App.css";
 
 // let name: string = 'Trever';
 let name: string;
+//  this is also valid syntax
+// let name: string = 'Trever';
 //  the | allows the variable to be different types. This is called a union in TypeScript.
 let age: number | string;
 let isStudent: boolean;
@@ -17,7 +19,7 @@ type School =
   major?: string
 }
 
-name = "Trever";
+name = 'Trever';
 // age = 34;
 age = 'thirty-four';
 isStudent = true;
