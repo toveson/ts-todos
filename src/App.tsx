@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 
-// let name: string = 'Trever';
 let name: string;
 //  this is also valid syntax
 // let name: string = 'Trever';
@@ -20,8 +19,8 @@ type School =
 }
 
 name = 'Trever';
-// age = 34;
-age = 'thirty-four';
+age = 34;
+// age = 'thirty-four';
 isStudent = true;
 hobbies = ['snowboarding', 'gaming', 'reading', 'coding']
 
@@ -57,8 +56,6 @@ function App() {
         {' and '} 
         {school.graduated ? `graduated in ${school.yearFinished}.` : 'is still working towards graduating.'}
       </div>
-      {/* <div></div> */}
-      {/* <div></div> */}
     </>
   );
 }
